@@ -1,7 +1,7 @@
 package ProblemaDosBarbeiros;
 
 public class Pessoa {
-	private int id;
+	protected int id;
 	
 	public Pessoa(int id){
 		this.id = id;
