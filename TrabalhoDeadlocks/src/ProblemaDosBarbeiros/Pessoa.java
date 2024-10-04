@@ -3,7 +3,11 @@ package ProblemaDosBarbeiros;
 public class Pessoa {
 	private int id;
 	
-	public int getId() {
+	public Pessoa(int id){
+		this.id = id;
+	}
+	
+	public int getID() {
 		return id;
 	}
 }
